@@ -54,7 +54,7 @@ public class TicketManager {
                 }
             }
         }
-        if (result.length > 0) { // сортировка по возрастанию цены
+        if (result.length > 0) { // сортировка по возрастанию времени полета
             Arrays.sort(result, comparator);
         }
         return result;
